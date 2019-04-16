@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <title>Amber Tank Test</title>
+  <head>
+    <style>
+      .btn {
+        padding: 2px;
+        width: 150px;
+        height: 45px;
+        margin-left: 46%;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <h5 class="center-align">Welcome to the battle</h5>
+    </div>
+
+    <a
+      class="waves-effect waves-light center-align btn"
+      href="{% url 'tanks:tank_battle' %}"
+    >
+      Begin</a
+    >
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
